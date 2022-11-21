@@ -1,0 +1,4 @@
+- Sor1 a 3.14
+- Borsodi Ipa 3.69
+- Sor2 b 33.0
+- Sor3 c 64.46

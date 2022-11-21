@@ -1,0 +1,16 @@
+javac test.java		//fordítja (compile) a java file-t
+java test			//futtatja a programot (a .class file-t, de azt nem szabad hozzáírni!)
+
+
+//a .jar olyan, mint a .zip fájl, csak ez java programokat, csomagokat, ..., tartalmaz.
+//Jó beállításnál kattintásra elindul a program
+//először le kell fordítani mindent
+jar cfm name.jar MANIFEST.mf mappa/almappa/file.java mappa/almappa2/masik.java
+	//jar create-file-(with-)manifest ~Manifest-file ~java-filek-bele
+	//lehet sima jar cf mappa/almappa/file.java
+	
+//MANIFEST.mf -> Main-Class: mappa.almappa.Main (class nevet adunk meg)
+
+
+//jar futtatása
+java -jar name.jar
